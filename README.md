@@ -1,28 +1,27 @@
 <div align="center">
-  <img src="https://github.com/INTELEON404/Template/blob/main/tm%2B1.png" alt="Logo" />
+  <img src="https://github.com/INTELEON404/Template/blob/main/tm%2B1.png" width="600" alt="TEMPLATE-PLUS Logo"/>
+  <br><br>
 </div>
 
-# TEMPLATE-PLUS
+[![Nuclei Version](https://img.shields.io/badge/nuclei-v3.3%2B-blue.svg)](https://github.com/projectdiscovery/nuclei)
+[![License](https://img.shields.io/badge/license-Private-red.svg)]()
+[![Status](https://img.shields.io/badge/status-Private-important)](#)
 
-[![Nuclei Version](https://img.shields.io/badge/nuclei-v3.3+-blue.svg)](https://github.com/projectdiscovery/nuclei)
-[![License](https://img.shields.io/badge/license-MIT-red.svg)]()
-[![Private](https://img.shields.io/badge/status-Private-important)]()
+**TEMPLATE-PLUS** is a private, high-signal collection of premium Nuclei templates curated exclusively for professional penetration testing, red team operations, bug bounty hunting, and enterprise-grade automated security assessments.
 
-**TEMPLATE-PLUS** is a private, high-signal collection of premium Nuclei templates curated for professional penetration testing, red team operations, bug bounty hunting, and enterprise-grade automated security assessments.
-
-This repository contains heavily optimized, low-false-positive, and stealth-oriented templates that go beyond the public nuclei-templates collection. All templates are battle-tested in real-world engagements and continuously refined for maximum detection accuracy and minimal noise.
+This repository contains heavily optimized, low-false-positive, and stealth-oriented templates that significantly outperform the public `nuclei-templates` collection. Every template is battle-tested in real-world engagements and continuously refined for maximum accuracy, evasion, and operational impact.
 
 ---
 
 ## Features
 
-- High-accuracy custom detection logic  
-- Reduced false positives through advanced matchers & extractors  
-- Stealth-focused payloads and request patterns  
-- Regularly updated with zero-day and post-exploitation checks  
-- Organized directory structure for large-scale template management  
-- Compatible with Nuclei workflows and headless mode  
-- Designed for integration into CI/CD, attack-surface monitoring, and red team pipelines  
+- High-accuracy detection with advanced matchers & extractors  
+- Dramatically reduced false positives  
+- Stealth-optimized payloads and request patterns  
+- Regular updates including zero-day and post-exploitation checks  
+- Clean, modular directory structure for enterprise-scale management  
+- Full compatibility with Nuclei workflows, headless mode, and automation  
+- Built for seamless integration into CI/CD, ASM, and red team pipelines  
 
 ---
 
@@ -35,34 +34,29 @@ cd TEMPLATE-PLUS
 
 ### Update Templates
 
-Keep the repository up to date with:
-
 ```bash
 git pull origin main
 ```
 
-(Private zero-day and high-value templates are pushed regularly.)
+> Private high-value and zero-day templates are pushed frequently.
 
 ---
 
 ## Usage
 
-Scan a single target:
-
+Single target:
 ```bash
 nuclei -t TEMPLATE-PLUS/ -u https://target.com
 ```
 
-Scan a list of targets:
-
+Multiple targets:
 ```bash
 nuclei -t TEMPLATE-PLUS/ -l targets.txt -c 100
 ```
 
-Run with custom configuration (recommended for large scans):
-
+Large-scale / production scanning:
 ```bash
-nuclei -t TEMPLATE-PLUS/ -l targets.txt -c 200 -rl 300 -silent -severity critical,high
+nuclei -t TEMPLATE-PLUS/ -l targets.txt -c 200 -rl 300 -silent -severity critical,high -headless -bulk-size 50
 ```
 
 ---
@@ -71,36 +65,42 @@ nuclei -t TEMPLATE-PLUS/ -l targets.txt -c 200 -rl 300 -silent -severity critica
 
 ```
 TEMPLATE-PLUS/
-├── cves/                  # CVE-specific detections (including 0-day)
-├── vulnerabilities/       # Generic vulnerability classes
-├── exposures/             # Tokens, backups, configs, panels
-├── misconfiguration/      # Cloud, container, infra misconfigs
-├── technologies/          # Advanced fingerprinting
-├── network/               # Custom network protocol checks
-├── takeover/              # Subdomain takeover patterns
-├── token-spray/           # Secret & token validation
-├── workflows/             # Multi-step attack chains
-└── helpers/               # Reusable workflow helpers
+├── cves/              # CVE-specific & zero-day detections
+├── vulnerabilities/   # Generic vulnerability classes
+├── exposures/         # Tokens, backups, panels, configs
+├── misconfiguration/  # Cloud, container & infrastructure misconfigs
+├── technologies/      # Advanced tech fingerprinting
+├── network/           # Custom network-layer checks
+├── takeover/          # Subdomain & service takeover
+├── token-spray/       # Secret & token validation
+├── workflows/         # Multi-step attack chains
+└── helpers/           # Reusable helpers & payloads
 ```
 
 ---
 
 ## Contributing
 
-This is a **private repository** intended for internal/authorized use only.
+This is a **private repository** for authorized/internal use only.
 
-Contributions are accepted under strict organizational review. All submissions must follow internal security policies. External contributions or redistribution of these templates is strictly prohibited.
+Contributions are welcome under strict review and must comply with organizational security policies.  
+External contributions, forks, or redistribution of these templates are strictly prohibited.
 
 ---
 
 ## Disclaimer
 
-These templates are provided exclusively for authorized security testing and research on systems you own or have explicit permission to test.
+These templates are intended **exclusively** for authorized security testing and research on systems you own or have explicit written permission to test.
 
-The authors and contributors assume **no liability** for misuse, unauthorized scanning, or any damage resulting from the use of these templates.
+The authors and contributors assume **no liability** for any misuse, unauthorized scanning, or resulting damage.
 
 ---
 
 ## License
 
-**MIT License** – All rights reserved.  
+**Private License** – All rights reserved.  
+Unauthorized distribution or use is prohibited.
+
+<div align="center">
+  <sub>Crafted for elite security teams.</sub>
+</div>
