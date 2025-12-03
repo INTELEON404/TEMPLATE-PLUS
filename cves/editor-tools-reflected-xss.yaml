@@ -2,7 +2,7 @@ id: CVE-2022-2130
 
 info:
   name: Microweber < 1.2.17 - Cross-Site Scripting
-  author: ritikchaddha
+  author: ritikchaddha | IQ570
   severity: medium
   description: |
     Cross-site Scripting (XSS) vulnerability in the /demo/editor_tools/module endpoint via the 'type' parameter.
