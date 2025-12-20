@@ -13,8 +13,9 @@ This repository contains heavily optimized, low-false-positive, and stealth-orie
 
 ---
 
-**DRIVE:** [Open Folder 📂](https://drive.google.com/drive/folders/1cwdX88xhUrPlvjSz8QRkEtO3q_dxJazY?usp=sharing)
-
+>**DRIVE:** [Terabox](https://1024terabox.com/s/1BGVpAFurMTwFReQb_fewEg)
+>
+>Password:hf48
 
 ---
 
